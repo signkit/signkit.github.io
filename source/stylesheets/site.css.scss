@@ -21,6 +21,6 @@ button {
 
 #pricing .card {
   &:hover {
-    @extend .border-secondary;
+    @extend .border-dark;
   }
 }

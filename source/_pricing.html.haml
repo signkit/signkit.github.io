@@ -1,5 +1,5 @@
 #pricing
-  .block-diagonal.mt-0.pb-0
+  .block-diagonal.pb-0
     .diagonal-bg.bg-light.pb-0.block-foreground
       .container
         .row
@@ -10,7 +10,7 @@
           .col
             .card-deck
               - data.plans.each do |plan|
-                .card
+                .card.border-secondary
                   .card-body
                     .text-center
                       %h4.card-title.text-secondary= plan.title
