@@ -1,0 +1,28 @@
+#pricing
+  .block-diagonal.mt-0.pb-0
+    .diagonal-bg.bg-light.pb-0.block-foreground
+      .container
+        .row
+          .col.text-center.pb-5
+            %h2 Simple pricing
+            %p.lead Our plans are designed to be simple and affordable
+        .row
+          .col            
+            .card-deck
+              - 4.times do
+                .card
+                  .card-body
+                    .text-center
+                      %h4.card-title Starter
+                      %p.h2.mb-0 $59.00
+                      %p per month
+                    %hr/
+                    %p.card-text 
+                      Up to 30 signatures
+                    %p.card-text
+                      Unlimited templates
+                    %p.card-text More value
+                    %hr/
+                    .text-center
+                      %button.btn.btn-success Get started
+    .block-background.bg-light{style: "top: 50%;"}

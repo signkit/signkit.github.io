@@ -1,0 +1,20 @@
+@import "variables";
+@import "bootstrap";
+
+@import "block-diagonal";
+
+.text-muted {
+  color: inherit !important;
+  opacity: 0.6;
+}
+
+button {
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+#hero {
+  position: relative;
+  z-index: 2;
+}

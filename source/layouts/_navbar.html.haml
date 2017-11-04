@@ -1,0 +1,26 @@
+%nav.navbar.navbar-expand-md.navbar-light.py-3
+  .container
+    %a.navbar-brand.mb-0.h1{href: "http://www.signkit.io"}
+      = image_tag "logo.png", height: "20"
+      Signkit
+    %button.navbar-toggler{"aria-controls" => "navbarSupportedContent",
+      "aria-expanded" => "false",
+      "aria-label" => "Toggle navigation",
+      "data-target" => "#navbarSupportedContent",
+      "data-toggle" => "collapse",
+      type: "button"}
+      %span.navbar-toggler-icon
+    #navbarSupportedContent.collapse.navbar-collapse
+      %ul.navbar-nav.mr-auto
+        %li.nav-item
+          %a.nav-link{href: "#"} Product
+        %li.nav-item
+          %a.nav-link{href: "#"} Features
+        %li.nav-item
+          %a.nav-link{href: "#"} Pricing
+        %li.nav-item
+          %a.nav-link{href: "#"} Schedule a demo
+      %ul.navbar-nav
+        %li.nav-item.pr-3
+          %a.nav-link{href: "#"} Log in
+      %button.btn.btn-outline-success Sign up
