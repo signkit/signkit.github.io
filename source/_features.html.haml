@@ -1,14 +1,14 @@
 #features.mb-5
   .container
     .row.justify-content-center
-      .col-8.text-center
+      .col.col-md-8.text-center
         %h2 A complete solution for your email signatures
         %p.lead.pb-5
           Signkit keeps getting stronger by the day, but here are some of our favorite features that help you manage email signatures with ease, today.
     .row
       - data.features.each do |feature|
-        .col-6.pb-5
-          .media.px-2
+        .col-12.col-md-6.pb-5
+          .media.px-md-2
             = image_tag feature.icon, width: "40", class: "mr-3", style: "margin-top: -8px;"
             .media-body
               %h5.mt-0= feature.title

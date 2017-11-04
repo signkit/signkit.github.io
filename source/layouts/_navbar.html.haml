@@ -1,6 +1,6 @@
 %nav.navbar.navbar-expand-md.navbar-light.py-3
   .container
-    %a.navbar-brand.mb-0.h1{href: "http://www.signkit.io"}
+    %a.navbar-brand.mb-0.h1{href: "https://www.signkit.io"}
       = image_tag "logo.png", height: "20"
       Signkit
     %button.navbar-toggler{"aria-controls" => "navbarSupportedContent",
@@ -19,8 +19,8 @@
         %li.nav-item
           %a.nav-link{href: "#pricing"} Pricing
         %li.nav-item
-          %a.nav-link{href: "#"} Schedule a demo
+          %a.nav-link{href: "mailto:sales@signkit.io"} Schedule a demo
       %ul.navbar-nav
         %li.nav-item.pr-3
-          %a.nav-link{href: "#"} Log in
-      %button.btn.btn-outline-success Sign up
+          = link_to "Log in", "http://app.signkit.io/users/sign_in", class: "nav-link"
+      = link_to "Sign up", "http://app.signkit.io/users/sign_up", class: "btn btn-outline-success", role: "button"

@@ -4,7 +4,7 @@
       .container.py-5
         .row
           - data.usps.each do |usp|
-            .col
+            .col-12.col-md-4
               = image_tag usp.icon, width: "40", class: "mb-3"
               %h3.h4= usp.title
               %p.text-muted= usp.description
