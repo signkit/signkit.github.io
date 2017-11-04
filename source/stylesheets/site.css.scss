@@ -1,7 +1,13 @@
+@import url("https://fonts.googleapis.com/css?family=Bitter|Roboto+Slab|Bree+Serif");
+
 @import "variables";
 @import "bootstrap";
 
 @import "block-diagonal";
+
+.navbar-brand {
+  font-family: "Bree Serif" ,"Roboto Slab", "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 
 .text-muted {
   color: inherit !important;
