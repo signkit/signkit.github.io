@@ -1,7 +1,7 @@
 #hero.my-5.py-5
   .container
     .row
-      .col-6
+      .col-12.col-md-6.mb-5.mb-md-0
         %h1 On-brand Email Signatures
         %p.lead.mb-4 Businesses choose Signkit to manage their email signatures to always leave a positive on-brand impression.
         = link_to "Get started", "#", class: "btn btn-lg btn-success mr-2"
@@ -11,5 +11,5 @@
           %p.small.text-uppercase.font-weight-light.text-muted Featured customers
           - data.customers.each do |customer|
             = image_tag customer.logo, alt: customer.title, class: "mr-4 mb-3"
-      .col-6
+      .col-12.col-md-6
         =image_tag "http://translationexchange.com/wp-content/uploads/2017/09/ui-elements.png", class: "w-100"

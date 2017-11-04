@@ -11,18 +11,19 @@
             .card-deck
               - data.plans.each do |plan|
                 .card
-                  .card-body
+                  .card-body.d-flex.flex-column
                     .text-center
                       %h4.h5.card-title.font-weight-light.text-secondary= plan.title
                       %p.h2.mb-0= plan.price
                       %p.text-muted= plan.billing_cycle
-                    %hr/
+                      %hr/
                     - plan.attributes.each do |attribute|
                       %p.card-text 
                         = attribute
-                    %hr/
-                    .text-center
-                      %button.btn.btn-success= plan.cta.title
+                    .mt-auto
+                      %hr/
+                      .text-center
+                        %button.btn.btn-success= plan.cta.title
         .row
           .col.text-center
             %p.text-secondary.small

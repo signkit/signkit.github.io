@@ -2,9 +2,8 @@
   price: "$29.00"
   billing_cycle: "per month"
   attributes:
-    - "Up to 20 signatures"
+    - "Up to <b>20</b> signatures"
     - "Unlimited templates"
-    - "More value"
   cta: 
     title: "Get started"
     href: "#"
@@ -12,9 +11,8 @@
   price: "$59.00"
   billing_cycle: "per month"
   attributes:
-    - "Up to 50 signatures"
+    - "Up to <b>50</b> signatures"
     - "Unlimited templates"
-    - "More value"
   cta: 
     title: "Get started"
     href: "#"
@@ -22,9 +20,8 @@
   price: "$119.00"
   billing_cycle: "per month"
   attributes:
-    - "Up to 150 signatures"
+    - "Up to <b>150</b> signatures"
     - "Unlimited templates"
-    - "More value"
   cta: 
     title: "Get started"
     href: "#"
