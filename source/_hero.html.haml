@@ -4,16 +4,12 @@
       .col-6
         %h1 On-brand Email Signatures
         %p.lead.mb-4 Businesses choose Signkit to manage their email signatures to always leave a positive on-brand impression.
-        = link_to "Get started", "#", class: "btn btn-lg btn-success"
-        = link_to "Schedule a demo", "#", class: "btn btn-lg btn-secondary"
-        .pb-5.mb-1
-        %p.small.text-uppercase.font-weight-light.text-muted Featured customers
-        = image_tag "https://d13e3m4o7gfyly.cloudfront.net/static/home/netflix.svg", class: "mr-4 mb-3"
-        = image_tag "https://d13e3m4o7gfyly.cloudfront.net/static/home/disney.svg", class: "mr-4 mb-3"
-        = image_tag "https://d13e3m4o7gfyly.cloudfront.net/static/home/redbull.svg", class: "mr-4 mb-3"
-        = image_tag "https://d13e3m4o7gfyly.cloudfront.net/static/home/mailchimp.svg", style: "max-width: 131px;", class: "mr-4 mb-3"
-        = image_tag "https://d13e3m4o7gfyly.cloudfront.net/static/home/ideo.svg", class: "mr-4 mb-3"
-        = image_tag "https://d13e3m4o7gfyly.cloudfront.net/static/home/carbonmade.svg", class: "mr-4 mb-3"
-        = image_tag "https://d13e3m4o7gfyly.cloudfront.net/static/home/format.svg", class: "mr-4 mb-3"
+        = link_to "Get started", "#", class: "btn btn-lg btn-success mr-2"
+        = link_to "Schedule a demo", "#", class: "btn btn-lg btn-light"
+        - if data.customers.any?
+          .pb-5.mb-1
+          %p.small.text-uppercase.font-weight-light.text-muted Featured customers
+          - data.customers.each do |customer|
+            = image_tag customer.logo, alt: customer.title, class: "mr-4 mb-3"
       .col-6
         =image_tag "http://translationexchange.com/wp-content/uploads/2017/09/ui-elements.png", class: "w-100"

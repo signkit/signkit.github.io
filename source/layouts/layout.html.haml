@@ -8,7 +8,7 @@
     / Use the title from a page's frontmatter if it has one
     %title= current_page.data.title || "Middleman"
     = stylesheet_link_tag "site"
-    = javascript_include_tag "site"
+    = javascript_include_tag "//ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js", "site"
   %body
     = partial "layouts/navbar"
     = yield

@@ -6,16 +6,16 @@
           .col.text-center.pb-5
             %h2 Simple pricing
             %p.lead Our plans are designed to be simple and affordable
-        .row.justify-content-center
-          .col-10
+        .row.justify-content-center.mb-4
+          .col
             .card-deck
               - data.plans.each do |plan|
                 .card
                   .card-body
                     .text-center
-                      %h4.card-title= plan.title
+                      %h4.card-title.text-secondary= plan.title
                       %p.h2.mb-0= plan.price
-                      %p= plan.billing_cycle
+                      %p.text-muted= plan.billing_cycle
                     %hr/
                     - plan.attributes.each do |attribute|
                       %p.card-text 
@@ -23,4 +23,10 @@
                     %hr/
                     .text-center
                       %button.btn.btn-success= plan.cta.title
+        .row
+          .col.text-center
+            %p.text-secondary.small
+              Feel free to
+              = link_to "reach out", "#"
+              if you have any questions
     .block-background.bg-light{style: "top: 50%;"}

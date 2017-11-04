@@ -18,3 +18,9 @@ button {
   position: relative;
   z-index: 2;
 }
+
+#pricing .card {
+  &:hover {
+    @extend .border-secondary;
+  }
+}
