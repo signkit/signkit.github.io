@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Airplane</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-100.000000, -100.000000)" fill-rule="nonzero">
+            <g id="Airplane" transform="translate(100.000000, 100.000000)">
+                <circle id="Oval" fill="#A497EA" cx="50" cy="50" r="50"></circle>
+                <path d="M79,23 L15.0116418,51.652995 C12.9966697,52.5552683 13.0997802,53.7258881 15.2474081,54.2690291 L30,58 L50.234843,67.1883978 L64.8869174,75.1177215 C66.3482857,75.9085763 67.8135677,75.239281 68.1617095,73.6135013 L79,23 Z" id="Shape" fill="#FAF9FF"></path>
+                <path d="M79,23 L30,58 L36.8028438,76.5372923 C37.3730088,78.0909536 38.7876076,78.4163041 39.9809127,77.2458627 L50.234843,67.1883978 L42.733426,62.9738881 L79,23 Z" id="Shape" fill="#3F51B5"></path>
+            </g>
+        </g>
+    </g>
+</svg>
