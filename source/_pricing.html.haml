@@ -10,10 +10,10 @@
           .col
             .card-deck
               - data.plans.each do |plan|
-                .card.border-secondary
+                .card
                   .card-body
                     .text-center
-                      %h4.card-title.text-secondary= plan.title
+                      %h4.h5.card-title.font-weight-light.text-secondary= plan.title
                       %p.h2.mb-0= plan.price
                       %p.text-muted= plan.billing_cycle
                     %hr/
