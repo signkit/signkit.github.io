@@ -15,6 +15,15 @@ page '/*.txt', layout: false
 
 set :haml, { format: :html5 }
 
+activate :deploy do |deploy|
+  deploy.deploy_method = :git
+  deploy.branch = "master"
+  deploy.build_before = true
+end
+
+activate :directory_indexes
+activate :livereload
+
 # With alternative layout
 # page '/path/to/file.html', layout: 'other_layout'
 

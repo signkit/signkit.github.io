@@ -6,10 +6,10 @@
         %p.lead.pb-5
           Signkit keeps getting stronger by the day, but here are some of our favorite features that help you manage email signatures with ease, today.
     .row
-      - 6.times do
+      - data.features.each do |feature|
         .col-6.pb-5
           .media
-            = image_tag "high-five.svg", width: "40", class: "mr-3", style: "margin-top: -10px;"
+            = image_tag feature.icon, width: "40", class: "mr-3", style: "margin-top: -10px;"
             .media-body.pr-3
-              %h5.mt-0 Heading
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus laborum porro, ipsa consequatur.
+              %h5.mt-0= feature.title
+              = feature.description

@@ -1,0 +1,30 @@
+- title: "Starter"
+  price: "$29.00"
+  billing_cycle: "per month"
+  attributes:
+    - "Up to 20 signatures"
+    - "Unlimited templates"
+    - "More value"
+  cta: 
+    title: "Get started"
+    href: "#"
+- title: "Basic"
+  price: "$59.00"
+  billing_cycle: "per month"
+  attributes:
+    - "Up to 50 signatures"
+    - "Unlimited templates"
+    - "More value"
+  cta: 
+    title: "Get started"
+    href: "#"
+- title: "Professional"
+  price: "$119.00"
+  billing_cycle: "per month"
+  attributes:
+    - "Up to 150 signatures"
+    - "Unlimited templates"
+    - "More value"
+  cta: 
+    title: "Get started"
+    href: "#"

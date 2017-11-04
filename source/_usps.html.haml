@@ -1,0 +1,9 @@
+#product
+  .block-diagonal{style: "margin-top: -20%;"}
+    .diagonal-bg.bg-primary.text-light
+      .container.py-5
+        .row
+          - data.usps.each do |usp|
+            .col
+              %h3.h4= usp.title
+              %p.text-muted= usp.description

@@ -6,23 +6,21 @@
           .col.text-center.pb-5
             %h2 Simple pricing
             %p.lead Our plans are designed to be simple and affordable
-        .row
-          .col            
+        .row.justify-content-center
+          .col-10
             .card-deck
-              - 4.times do
+              - data.plans.each do |plan|
                 .card
                   .card-body
                     .text-center
-                      %h4.card-title Starter
-                      %p.h2.mb-0 $59.00
-                      %p per month
+                      %h4.card-title= plan.title
+                      %p.h2.mb-0= plan.price
+                      %p= plan.billing_cycle
                     %hr/
-                    %p.card-text 
-                      Up to 30 signatures
-                    %p.card-text
-                      Unlimited templates
-                    %p.card-text More value
+                    - plan.attributes.each do |attribute|
+                      %p.card-text 
+                        = attribute
                     %hr/
                     .text-center
-                      %button.btn.btn-success Get started
+                      %button.btn.btn-success= plan.cta.title
     .block-background.bg-light{style: "top: 50%;"}
