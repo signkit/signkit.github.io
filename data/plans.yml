@@ -2,7 +2,7 @@
   price: "$29.00"
   billing_cycle: "per month"
   attributes:
-    - "Up to <b>20</b> signatures"
+    - "Up to <b>20</b> employees"
     - "Unlimited templates"
   cta: 
     title: "Get started"
@@ -11,7 +11,7 @@
   price: "$59.00"
   billing_cycle: "per month"
   attributes:
-    - "Up to <b>50</b> signatures"
+    - "Up to <b>50</b> employees"
     - "Unlimited templates"
   cta: 
     title: "Get started"
@@ -20,7 +20,7 @@
   price: "$119.00"
   billing_cycle: "per month"
   attributes:
-    - "Up to <b>150</b> signatures"
+    - "Up to <b>150</b> employees"
     - "Unlimited templates"
   cta: 
     title: "Get started"
@@ -29,9 +29,9 @@
   price: "Custom"
   billing_cycle: "Contact us"
   attributes:
-    - "<b>Unlimited</b> signatures"
+    - "<b>Unlimited</b> employees"
     - "Unlimited templates"
     - "<b>AD integration</b>"
   cta: 
     title: "Contact sales"
-    href: "mailto:sales@signkit.io"
+    href: "mailto:contact@signkit.io"
