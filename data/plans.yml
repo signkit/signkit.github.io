@@ -8,7 +8,7 @@
     title: "Get started"
     href: "http://app.signkit.io/users/sign_up"
 - title: "Starter"
-  price: "$29.00"
+  price: "$29"
   billing_cycle: "per month"
   attributes:
     - "Up to <b>20</b> employees"
@@ -17,7 +17,7 @@
     title: "Get started"
     href: "http://app.signkit.io/users/sign_up"
 - title: "Basic"
-  price: "$59.00"
+  price: "$59"
   billing_cycle: "per month"
   attributes:
     - "Up to <b>50</b> employees"
@@ -26,7 +26,7 @@
     title: "Get started"
     href: "http://app.signkit.io/users/sign_up"
 - title: "Professional"
-  price: "$119.00"
+  price: "$119"
   billing_cycle: "per month"
   attributes:
     - "Up to <b>150</b> employees"

@@ -4,6 +4,8 @@ This is the marketing site for Signkit
 
 ## How to contribute
 
+Always work from `source` branch.
+
 **Run locally**
 
 In the `source` branch, run
