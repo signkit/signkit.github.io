@@ -1,3 +1,12 @@
+- title: "Beginner"
+  price: "Free"
+  billing_cycle: "&nbsp;"
+  attributes:
+    - "Up to <b>5</b> employees"
+    - "Unlimited templates"
+  cta: 
+    title: "Get started"
+    href: "http://app.signkit.io/users/sign_up"
 - title: "Starter"
   price: "$29.00"
   billing_cycle: "per month"
@@ -25,13 +34,3 @@
   cta: 
     title: "Get started"
     href: "http://app.signkit.io/users/sign_up"
-- title: "Enterprise"
-  price: "Custom"
-  billing_cycle: "Contact us"
-  attributes:
-    - "<b>Unlimited</b> employees"
-    - "Unlimited templates"
-    - "<b>AD integration</b>"
-  cta: 
-    title: "Contact sales"
-    href: "mailto:contact@signkit.io"
