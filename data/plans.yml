@@ -2,35 +2,27 @@
   price: "Free"
   billing_cycle: "&nbsp;"
   attributes:
-    - "Up to <b>5</b> employees"
+    - "Up to <b>3</b> employees"
     - "Unlimited templates"
   cta: 
     title: "Get started"
     href: "http://app.signkit.io/users/sign_up"
-- title: "Starter"
-  price: "$29"
-  billing_cycle: "per month"
+- title: "Standard"
+  price: "€1.25"
+  billing_cycle: "per employee, per month"
   attributes:
-    - "Up to <b>20</b> employees"
-    - "Unlimited templates"
-  cta: 
-    title: "Get started"
-    href: "http://app.signkit.io/users/sign_up"
-- title: "Basic"
-  price: "$59"
-  billing_cycle: "per month"
-  attributes:
-    - "Up to <b>50</b> employees"
+    - "Unlimited employees"
     - "Unlimited templates"
   cta: 
     title: "Get started"
     href: "http://app.signkit.io/users/sign_up"
 - title: "Professional"
-  price: "$119"
-  billing_cycle: "per month"
+  price: "€2.50"
+  billing_cycle: "per employee, per month"
   attributes:
-    - "Up to <b>150</b> employees"
+    - "Unlimited employees"
     - "Unlimited templates"
+    - "Campaigns"
   cta: 
     title: "Get started"
     href: "http://app.signkit.io/users/sign_up"

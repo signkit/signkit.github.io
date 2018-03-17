@@ -1,12 +1,34 @@
 !!!
 %html
   %head
-    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
-    %meta{:charset => "utf-8"}/
-    %meta{:content => "ie=edge", "http-equiv" => "x-ua-compatible"}/
-    %meta{:content => "width=device-width, initial-scale=1, shrink-to-fit=no", :name => "viewport"}/
+    %meta{content: "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %meta{charset: "utf-8"}/
+    %meta{content: "ie=edge", "http-equiv" => "x-ua-compatible"}/
+    %meta{content: "width=device-width, initial-scale=1, shrink-to-fit=no", name: "viewport"}/
+    
+    / HTML Meta Tags
     / Use the title from a page's frontmatter if it has one
-    %title= current_page.data.title || "Signkit"
+    %title= current_page.data.title || "Signkit - Email signature management  marketing"
+
+    %meta{content: "Signkit is a all-in-one platform for email signatures. Easily create and distribute on-brand signatures across your entire organization.", name: "description"}
+    
+    / Google / Search Engine Tagð
+    %meta{content: "Signkit - Email signature management  marketing", itemprop: "name"}
+    %meta{content: "Signkit is a all-in-one platform for email signatures. Easily create and distribute on-brand signatures across your entire organization.", itemprop: "description"}
+    %meta{content: asset_url("screengrab.png"), itemprop: "image"}
+    / Facebook Meta Tags
+    %meta{content: "http://www.signkit.io", property: "og:url"}
+    %meta{content: "website", property: "og:type"}
+    %meta{content: "Signkit - Email signature management  marketing", property: "og:title"}
+    %meta{content: "Signkit is a all-in-one platform for email signatures. Easily create and distribute on-brand signatures across your entire organization.", property: "og:description"}
+    %meta{content: asset_url("screengrab.png"), property: "og:image"}
+    
+    / Twitter Meta Tags
+    %meta{content: "summary_large_image", name: "twitter:card"}
+    %meta{content: "Signkit - Email signature management  marketing", name: "twitter:title"}
+    %meta{content: "Signkit is a all-in-one platform for email signatures. Easily create and distribute on-brand signatures across your entire organization.", name: "twitter:description"}
+    %meta{content: asset_url("screengrab.png"), name: "twitter:image"}/
+
     = stylesheet_link_tag "site"
     = javascript_include_tag "//ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js", "site"
     :javascript
@@ -21,3 +43,4 @@
     = partial "layouts/navbar"
     = yield
     = partial "layouts/footer"
+    = partial "layouts/intercom"
