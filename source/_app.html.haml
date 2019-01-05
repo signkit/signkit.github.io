@@ -1,7 +1,7 @@
 #app
   .block-diagonal{style: "margin-top: -25%;"}
     .diagonal-bg.bg-light.block-foreground
-      .container.pb-5
+      .container.py-5
         .row
           .col-12.col-md-10.offset-md-1
             .row
@@ -10,6 +10,10 @@
                   = image_tag "ups/airplane.svg", width: "40", class: "mb-3"
                   %h2.mb-3 Distribute and install new email signatures with ease
                   %p.lead Installing rich HTML email signatures can be a pain
-                  %p.text-muted It's never been easier to both distribute and install new email signatures. Just download the Signkit app and we take care of retrieving the correct email signature and installing it to your preferred email client. Whenever there's an update to your signatures, those updates get pushed and installed to everyone in the organization.
+                  %p.mb-4.text-muted It's never been easier to both distribute and install new email signatures. Just download the Signkit app and we take care of retrieving the correct email signature and installing it to your preferred email client. Whenever there's an update to your signatures, those updates get pushed and installed to everyone in the organization.
+                  %ul.list-inline
+                    %li.list-inline-item.mr-4= image_tag "email_clients/applemail.png", height: "60"
+                    %li.list-inline-item.mr-4= image_tag "email_clients/gmail.png", height: "45"
+                    %li.list-inline-item= image_tag "email_clients/outlook.png", height: "55"
               .col-12.col-md-5
                 = image_tag "app.png", class: "w-100"

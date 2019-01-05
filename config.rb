@@ -42,6 +42,24 @@ activate :livereload
 # Methods defined in the helpers block are available in templates
 # https://middlemanapp.com/basics/helper-methods/
 
+set :protocol, "http://"
+set :host, "www.signkit.io"
+set :port, "80"
+
+helpers do
+  def host_with_port
+    [config[:host], optional_port].compact.join(':')
+  end
+
+  def optional_port
+    config[:port] unless config[:port].to_i == 80
+  end
+
+  def image_url(source)
+    config[:protocol] + host_with_port + image_path(source)
+  end
+end
+
 # helpers do
 #   def some_helper
 #     'Helping'
