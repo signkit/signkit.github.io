@@ -1,6 +1,6 @@
 - title: "In-depth analytics"
   icon: "features/analytics.svg"
-  description: "<span class='badge badge-secondary'>Spring 2018</span> Track open rates, clicks and downloads through the simple interface of Signkit."
+  description: "Track open rates, clicks and downloads through the simple interface of Signkit."
 - title: "Simple installation"
   icon: "features/distribution.svg"
   description: "Signkit Distribution makes it super easy to install and keep signatures updates."
