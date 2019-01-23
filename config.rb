@@ -24,6 +24,10 @@ end
 activate :directory_indexes
 activate :livereload
 
+activate :dato,
+  token: '70d80f2eeff866c256aa0cfb6b6573',
+  base_url: 'http://www.signkit.io'
+
 # With alternative layout
 # page '/path/to/file.html', layout: 'other_layout'
 
