@@ -5,13 +5,13 @@
     %meta{charset: "utf-8"}/
     %meta{content: "ie=edge", "http-equiv" => "x-ua-compatible"}/
     %meta{content: "width=device-width, initial-scale=1, shrink-to-fit=no", name: "viewport"}/
-    
+
     / HTML Meta Tags
     / Use the title from a page's frontmatter if it has one
     %title= current_page.data.title || "Email signature management & marketing | Signkit"
 
     %meta{content: "Signkit is a all-in-one platform for email signatures. Easily create and distribute on-brand signatures across your entire organization.", name: "description"}
-    
+
     / Google / Search Engine Tagð
     %meta{content: "Email signature management & marketing | Signkit", itemprop: "name"}
     %meta{content: "Signkit is a all-in-one platform for email signatures. Easily create and distribute on-brand signatures across your entire organization.", itemprop: "description"}
@@ -22,7 +22,7 @@
     %meta{content: "Email signature management & marketing | Signkit", property: "og:title"}
     %meta{content: "Signkit is a all-in-one platform for email signatures. Easily create and distribute on-brand signatures across your entire organization.", property: "og:description"}
     %meta{content: image_url("social_image.png"), property: "og:image"}
-    
+
     / Twitter Meta Tags
     %meta{content: "summary_large_image", name: "twitter:card"}
     %meta{content: "Email signature management & marketing | Signkit", name: "twitter:title"}
@@ -46,4 +46,6 @@
       %iframe{src: "https://www.googletagmanager.com/ns.html?id=GTM-MH6BB7F", frameborder: "0", height: "0", width: "0", style: "display:none;visibility:hidden"}
     = partial "layouts/navbar"
     = yield
+    <div>
+    </div>
     = partial "layouts/footer"
